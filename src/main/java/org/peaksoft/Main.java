@@ -11,8 +11,8 @@ public class Main {
         Student student2 = new Student("Adina", "Atakulova", "adina@gmail.com", 20);
         Student student3 = new Student("Munara", "Aralbek kyzy", "munara@gmail.com", 22);
       creatStudent(new Test("Nazgul"));
-//      creatStudent(student2);
-//      creatStudent(student3);
+      creatStudent(student2);
+      creatStudent(student3);
     }
 
     public static void creatStudent(Test student) {
